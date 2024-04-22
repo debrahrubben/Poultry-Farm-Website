@@ -8,6 +8,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #8f2e37;
+    -webkit-text-fill-color: #d48e52;
+    font-family: "Rammetto One", sans-serif;
   }
   
   .title h1 {
@@ -18,9 +22,8 @@
   }
   
   .title h2 {
-    font-size: 330%;
+    font-size: 400%;
     font-weight: bold;
-    text-transform: uppercase;
     color: #8f2e37;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   }
@@ -49,6 +52,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        -webkit-text-stroke-width: 1px;
       }
   .title h1 {
     font-size: 130%;
