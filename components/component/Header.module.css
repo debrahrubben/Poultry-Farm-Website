@@ -1,0 +1,128 @@
+.header {
+    background-color: #8f2e37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+    max-height: 80px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .text {
+    color: white;
+  }
+  
+  .boldText {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .subText {
+    font-size: 12px;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linkItem {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .linkItem:hover {
+    cursor: pointer;
+  }
+  
+  .icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+  }
+  
+  .phoneNumber {
+    font-weight: medium;
+  }
+  
+  .linkText {
+    font-weight: medium;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .link:hover {
+    cursor: pointer;
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .header{
+        max-height: 70px;
+    }
+
+    .logo {
+      height: 60px;
+      margin-right: 10px;
+      margin-top: 50px;
+    }
+  
+    .boldText {
+      font-size: 18px;
+    }
+  
+    .subText {
+      font-size: 10px;
+    }
+  
+    .linkItem {
+      margin-right: 5px;
+    }
+  
+    .icon {
+      height: 15px;
+      width: 15px;
+    }
+  
+    .phoneNumber,
+    .mailText {
+      display: none;
+    }
+  
+    .link {
+      font-weight: medium;
+      font-size: xx-small;
+      margin-right: 5px;
+    }
+    .links {
+        display: flex;
+        align-items: center;
+      }
+    
+  }
+  

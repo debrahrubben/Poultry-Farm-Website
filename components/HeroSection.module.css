@@ -1,0 +1,19 @@
+/* General styles */
+.hero {
+  height: 100vh;
+  position: relative;
+  background-image: url('https://res.cloudinary.com/dgpxvazru/image/upload/v1713814663/Poultry/1f7e832cd6d8485de92a2fd2602923f7-1_2x_b0fmbe.png');
+  background-position-x: center;
+  background-repeat: no-repeat;
+  transform: scale(1.03); /* Zoom in by 3% */
+  background-size: cover; /* Default value for desktop */
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain; /* Image fits the screen without stretching on mobile */
+    background-position-y: 8%;
+    
+  }
+}

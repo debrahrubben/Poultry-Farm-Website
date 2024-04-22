@@ -1,0 +1,69 @@
+/* Title styles */
+.title {
+    position: relative;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 230%;
+    font-weight: bold;
+    color: #8f2e37;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title h2 {
+    font-size: 330%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8f2e37;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title p {
+    font-size: 180%;
+    color: #8f2e37;
+    font-style: italic;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title p.absolute {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 1.5rem;
+    color: #8f2e37;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+        position: relative;
+        background-position: center;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  .title h1 {
+    font-size: 130%;
+  }
+  .title h2 {
+    font-size: 180%;
+  }
+  .title p {
+    font-size: 100%;
+
+  }
+
+  .title p.absolute {
+    font-size: 80%;
+    position: relative;
+    bottom: 0%;
+  }
+  }
