@@ -1,0 +1,185 @@
+.frameChild,
+.organic21Icon {
+  position: relative;
+  object-fit: cover;
+}
+.frameChild {
+  width: 706px;
+  height: 508px;
+  border-radius: var(--br-xl);
+  display: none;
+  max-width: 100%;
+}
+.organic21Icon {
+  height: 88px;
+  width: 251px;
+  z-index: 1;
+}
+.organic21Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.playIcon {
+  width: 128px;
+  height: 128px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.theTypical {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.ruralTaste {
+  margin: 0;
+}
+.aboutUs,
+.theTypicalRuralContainer {
+  line-height: 20px;
+  display: inline-block;
+}
+.theTypicalRuralContainer {
+  width: 614px;
+  position: absolute;
+  margin: 0 !important;
+  top: 76px;
+  left: -69px;
+  z-index: 1;
+}
+.aboutUs {
+  width: 268px;
+  position: relative;
+}
+.areRaisedIn,
+.forHealthierHappier,
+.inUniqueSurroundings,
+.ofTheCityThriving,
+.ourUrbanBredChickens {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.birds {
+  margin: 0;
+}
+.ourUrbanBredChickensContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  color: var(--color-black);
+}
+.aboutUsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-203xl);
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+  color: var(--color-brown);
+}
+.theTypicalRuralTasteParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.desktop1Inner,
+.frameParent,
+.frameWrapper,
+.theTypicalRuralTasteParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 640px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  min-width: 640px;
+}
+.desktop1Inner,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-38xl);
+}
+.desktop1Inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) var(--padding-5xl) var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-peru);
+  font-family: var(--font-anonymous-pro);
+}
+@media screen and (max-width: 1225px) {
+  .frameWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    
+    padding-left: var(--padding-102xl);
+    padding-bottom: var(--padding-91xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .theTypicalRuralContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 16px;
+  }
+  .aboutUs,
+  .ourUrbanBredChickensContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 16px;
+  }
+  .aboutUsParent {
+    gap: var(--gap-92xl);
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+   
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-12xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .theTypicalRuralContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 12px;
+  }
+  .aboutUs,
+  .ourUrbanBredChickensContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 12px;
+  }
+  .aboutUsParent {
+    gap: var(--gap-36xl);
+  }
+  .details{
+    margin-top: 100px;
+    font-size: small;
+    
+  }
+}
