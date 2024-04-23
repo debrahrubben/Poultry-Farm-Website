@@ -13,8 +13,7 @@ export default function Home() {
 <Card />
 <br />
   <Organic />
-  <div style={{backgroundColor:'#DDDDDD'}}><Gallery /></div>
-  
+  <Gallery />
     </div>
   );
 }
