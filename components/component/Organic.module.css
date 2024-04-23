@@ -1,0 +1,24 @@
+.backgroundImage {
+  background-image: url('https://res.cloudinary.com/dgpxvazru/image/upload/v1713888347/Poultry/organic_iwnxyy.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: auto;
+  position: relative;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .backgroundImage {
+    background-size: contain;
+    background-position: auto;
+  }
+  
+  .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-md {
+    font-size: 1.25rem;
+  }
+}
