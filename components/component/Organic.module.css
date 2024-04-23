@@ -3,22 +3,71 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  height: auto;
+  height: 70vh;
   position: relative;
 }
+
+.container {
+  padding: 6rem;
+}
+
+.title {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.whyChooseUs {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.mergeTree {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  color: var(--color-brown);
+}
+
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .backgroundImage {
     background-size: contain;
-    background-position: auto;
-  }
-  
-  .text-lg {
-    font-size: 1.5rem;
+    
   }
 
-  .text-md {
-    font-size: 1.25rem;
+  .title {
+    font-size: 1.3rem;
   }
+
+  .item h3 {
+    font-size: 70%;
+  }
+  .container {
+    padding: 1rem;
+  }
+  .container {
+    gap: 1rem;
+  }
+  .backgroundImage{
+    height: auto;
+  }
+  
 }

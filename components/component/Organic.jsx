@@ -1,23 +1,23 @@
-
-
-
 import styles from './Organic.module.css';
 
 export function Organic() {
   return (
-    <div className={`${styles.backgroundImage} w-full min-h-screen relative`}>
-      <div className="relative p-8 md:p-12 lg:p-16 flex flex-col justify-center gap-6 z-10">
-        <h1 className="text-4xl md:text-5xl font-bold text-white">GET THE DIFFERENT TASTE HERE</h1>
+    <div className={`${styles.backgroundImage} w-full `}>
+      <div className={`${styles.container} relative flex flex-col justify-center z-10 gap-6`}>
+        <div className={styles.mergeTree}>
+        <b className={styles.whyChooseUs}>WHY CHOOSE US</b>
+      </div>
+        <h1 className={`${styles.title}`}>GET THE DIFFERENT TASTE HERE</h1>
         <div className="grid gap-4">
-          <div className="flex items-center gap-4">
+          <div className={`${styles.item}`}>
             <BeefIcon className="w-8 h-8 text-white" />
             <h3 className="text-lg font-semibold text-white">Organic meat</h3>
           </div>
-          <div className="flex items-center gap-4">
+          <div className={`${styles.item}`}>
             <MilkIcon className="w-8 h-8 text-white" />
             <h3 className="text-lg font-semibold text-white">Healthy livestock</h3>
           </div>
-          <div className="flex items-center gap-4">
+          <div className={`${styles.item}`}>
             <ViewIcon className="w-8 h-8 text-white" />
             <h3 className="text-lg font-semibold text-white">Best Consultancy</h3>
           </div>

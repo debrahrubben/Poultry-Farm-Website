@@ -614,7 +614,7 @@
   }
   .lineParent {
     flex-wrap: wrap;
-    gap: var(--gap-5xl);
+    gap: var(--gap-100xl);
     min-width: 100%;
   }
   .welcomeToOur {
@@ -624,7 +624,7 @@
     min-width: 100%;
   }
   .tableProperties {
-    gap: var(--gap-8xl);
+    gap: var(--gap-auto);
   }
   .servicesForTheBestContainer {
     font-size: var(--font-size-19xl);

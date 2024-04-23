@@ -38,7 +38,7 @@ export function Card() {
           <div className="p-6">
             <div className="flex flex-col items-center mb-4">
               <div
-                className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-medium mb-2">Broiler</div>
+                className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-medium mb-2"><span style={{color:'#8f2e37'}}>Broiler</span></div>
               <h3 className="text-xl font-bold">The best Broiler</h3>
             </div>
             <p className="text-gray-500 dark:text-gray-400">Your source for premium broiler chickens. Quality, care, and
@@ -63,7 +63,7 @@ export function Card() {
             <div className="flex flex-col items-center mb-4">
               <div
                 className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-medium mb-2">
-                Consultancy
+               <span style={{color:'#8f2e37'}}>Consultancy</span>
               </div>
               <h3 className="text-xl font-bold">Expert Consultancy</h3>
             </div>
@@ -87,8 +87,7 @@ export function Card() {
           </div>
           <div className="p-6">
             <div className="flex flex-col items-center mb-4">
-              <div
-                className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-medium mb-2">Livestock</div>
+              <div className="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm font-medium mb-2"><span style={{color:'#8f2e37'}}>Livestock</span></div>
               <h3 className="text-xl font-bold">Quality Livestock</h3>
             </div>
             <p className="text-gray-500 dark:text-gray-400">
