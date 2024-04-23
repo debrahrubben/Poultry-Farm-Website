@@ -18,11 +18,11 @@ export function Header() {
       <div className={styles.links}>
         <a className={styles.linkItem} href="#">
           <PhoneIcon className={styles.icon} />
-          <Link className={styles.phoneNumber}href="#">055836127</Link>
+          <span className={styles.phoneNumber}href="#">055836127</span>
         </a>
         <a className={styles.linkItem} href="#">
           <MailboxIcon className={styles.icon} />
-          <Link className={styles.mailText}href="#">Mail Us</Link>
+          <span className={styles.mailText}href="#">Mail Us</span>
         </a>
         <Link className={styles.link} href="#">
           Our Services
