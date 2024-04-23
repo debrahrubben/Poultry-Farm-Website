@@ -6,7 +6,7 @@ export function Title() {
       <h1>Welcome to</h1>
       <h2>Cartus Agriculture</h2>
       <p>Quietly Brilliant</p>
-      <p className={styles.absolute}>Since 2017</p>
+      <p className={styles.absolute}><i>Since 2017</i></p>
     </div>
   );
 }
