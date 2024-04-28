@@ -5,6 +5,7 @@ import { Card } from "../components/component/card.jsx";
 import { Organic } from "../components/component/Organic.jsx";
 import { Gallery } from "../components/component/Gallery.jsx";
 import { AboutUs} from "../components/AboutUs.js";
+import { Footer} from "../components/component/footer.jsx";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
   <Organic />
   <Gallery />
   <AboutUs />
+  <Footer />
     </div>
   );
 }

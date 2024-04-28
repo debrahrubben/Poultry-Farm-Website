@@ -19,7 +19,7 @@ export const AboutUs = () => {
               <b className={styles.details}>
               <hr style={{borderTop:'dotted 3px'}}/>
                 <div>
-                  <p>Our urban-bred chickens
+                  <p style={{color:'black'}}>Our urban-bred chickens
 
 are raised in the heart
 

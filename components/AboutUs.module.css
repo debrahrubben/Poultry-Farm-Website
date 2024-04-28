@@ -44,7 +44,7 @@
   display: inline-block;
 }
 .theTypicalRuralContainer {
-  width: 614px;
+  width: 100vw;
   position: absolute;
   margin: 0 !important;
   top: 76px;
@@ -155,9 +155,7 @@
   .frameWrapper {
     min-width: 100%;
   }
-  .frameParent {
-   
-  }
+  
 }
 @media screen and (max-width: 450px) {
   .rectangleParent {
