@@ -47,13 +47,13 @@
   gap: var(--gap-29xl);
   min-width: 568.1px;
   flex-shrink: 0;
-  debug_commit: 1de1738;
 }
 .welcomeToOur {
   align-self: stretch;
   position: relative;
   z-index: 1;
 }
+
 .label {
   position: relative;
   letter-spacing: 1.25px;
@@ -569,7 +569,7 @@
     var(--padding-90xl);
   position: relative;
   gap: var(--gap-lgi);
-  max-width: 100vw;
+  max-width: 95vw;
   flex-shrink: 0;
 }
 .tableCell {

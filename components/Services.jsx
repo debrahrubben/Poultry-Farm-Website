@@ -12,15 +12,20 @@ const Services = () => {
               <div className={styles.frameChild} />
               <div className={styles.qualityInnovationAndFoodSWrapper}>
                 <div className={styles.qualityInnovationAnd}>
-                  Quality, innovation and food safety.
+                 <div>Quality,</div>
+                  <div>innovation and </div>
+                  <div>food safety.</div>
                 </div>
               </div>
             </div>
             <div className={styles.layerOrderWrapper}>
               <div className={styles.layerOrder}>
                 <div className={styles.welcomeToOur}>
-                  Welcome to our world of livestock expertise! Explore, learn,
+                  <p>
+                  Welcome to our world of livestock expertise!
+                  Explore, learn,
                   grow, and buy with us.
+                  </p>
                 </div>
                 <div className={styles.opacity}>
                   <div className={styles.containedaText}>
