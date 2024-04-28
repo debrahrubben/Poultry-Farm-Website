@@ -83,8 +83,9 @@
   /* Mobile responsive styles */
   @media (max-width: 768px) {
     .header{
-        max-height: 70px;
-    }
+       max-height: 70px;
+       border-radius: 0;
+}
 
     .logo {
       height: 60px;
