@@ -32,7 +32,7 @@ export const Services = () => {
                 <div className={styles.opacity}>
                   <div className={styles.containedaText}>
                     <div className={styles.text}>
-                      <div className={styles.label}>Read more</div>
+                      <button className={styles.label}>Read more</button>
                     </div>
                   </div>
                 </div>

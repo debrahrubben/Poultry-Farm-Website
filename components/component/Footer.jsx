@@ -40,7 +40,7 @@ export function Footer() {
           </div>
           <p className="text-gray-400 max-w-[300px] sm:text-base lg:text-xl"> To produce healthy homegrown chicken for the population.</p>
           <div className="flex items-center gap-3">
-            <span style={{color:'#d48e52'}} className=" hover:underline sm:text-base lg:text-xl" href="#">
+            <span style={{color:'#d48e52'}} className=" hover:underline sm:text-base lg:text-xl" >
               Get in touch with us
             </span>
           </div>
@@ -50,16 +50,16 @@ export function Footer() {
             <LocateIcon className="h-5 w-5" />
             <div className="sm:text-base lg:text-xl">Kumasi</div>
           </div>
-          <div className="flex items-center gap-3">
+          <a className="flex items-center gap-3" href="mailto:website-yvonneboateng88@yahoo.com">
             <MailIcon className="h-5 w-5" />
-            <Link className="sm:text-base lg:text-xl hover:underline" href="#">
+            <span className="sm:text-base lg:text-xl hover:underline" >
               Mail Us
-            </Link>
-          </div>
-          <div className="flex items-center gap-3">
+            </span>
+          </a>
+          <a className="flex items-center gap-3" href="tel:055836127">
             <PhoneIcon className="h-5 w-5" />
             <div className="sm:text-base lg:text-xl">+233 (0) 55836127</div>
-          </div>
+          </a>
           <div className="flex items-center gap-3">
             <SmartphoneIcon className="h-5 w-5" />
             <div className="sm:text-base lg:text-xl">+233 (0) 543286970</div>
