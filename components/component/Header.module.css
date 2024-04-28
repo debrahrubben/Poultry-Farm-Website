@@ -1,17 +1,16 @@
 .header {
-    background-color: #8f2e37;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 16px;
-    max-width: 1000px;
-    margin: 0 auto;
-    border-radius: 0 0 15px 15px;
-    max-height: 80px;
-    -webkit-border-radius: 0 0 15px 15px;
-    -moz-border-radius: 0 0 15px 15px;
-    -ms-border-radius: 0 0 15px 15px;
-    -o-border-radius: 0 0 15px 15px;
+  position: sticky;
+  top: 0;
+  background-color: #8f2e37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 0 0 15px 15px;
+  max-height: 80px;
+  z-index: 1000; /* Ensure the header is above other content */
 }
   
   .logoContainer {
@@ -58,6 +57,8 @@
   
   .linkItem:hover {
     cursor: pointer;
+    text-decoration: overline;
+  
   }
   
   .icon {
@@ -78,11 +79,14 @@
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    
   }
   
   .link:hover {
     cursor: pointer;
+    text-decoration: overline;
   }
+
   
   /* Mobile responsive styles */
   @media (max-width: 768px) {
@@ -92,17 +96,18 @@
 }
 
     .logo {
-      height: 60px;
+      height: 35px;
       margin-right: 10px;
       margin-top: 50px;
+      
     }
   
     .boldText {
-      font-size: 18px;
+      font-size: 10px;
     }
   
     .subText {
-      font-size: 10px;
+      font-size: 8px;
     }
   
     .linkItem {

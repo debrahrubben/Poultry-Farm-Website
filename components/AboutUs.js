@@ -4,7 +4,7 @@ import React from 'react'
 
 export const AboutUs = () => {
   return (
-    <div>
+    <div id="AboutUs">
       <section className={styles.desktop1Inner}>
       <div className={styles.frameParent}>
        

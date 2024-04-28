@@ -2,7 +2,7 @@ import styles from './Organic.module.css';
 
 export function Organic() {
   return (
-    <div className={`${styles.backgroundImage} w-full `}>
+    <div id='WhyUs' className={`${styles.backgroundImage} w-full `}>
       <div className={`${styles.container} relative flex flex-col justify-center z-10 gap-6`}>
         <div className={styles.mergeTree}>
         <b className={styles.whyChooseUs}>WHY CHOOSE US</b>

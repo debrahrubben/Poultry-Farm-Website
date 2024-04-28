@@ -3,7 +3,9 @@ import styles from './Header.module.css'; // Import the CSS module
 
 export function Header() {
   return (
-    <header className={styles.header}>
+    <header id="header" className={styles.header}>
+      {/* Your header content goes here */}
+      <Link href='#header'>
       <div className={styles.logoContainer}>
         <img
           alt="Cartus Logo"
@@ -15,28 +17,30 @@ export function Header() {
           <div className={styles.subText}>Quietly Brilliant</div>
         </div>
       </div>
+      </Link>
       <div className={styles.links}>
-        <a className={styles.linkItem} href="#">
-          <PhoneIcon className={styles.icon} />
-          <span className={styles.phoneNumber}href="#">055836127</span>
-        </a>
-        <a className={styles.linkItem} href="#">
-          <MailboxIcon className={styles.icon} />
-          <span className={styles.mailText}href="#">Mail Us</span>
+      <a className={styles.linkItem} href="tel:055836127">
+       <PhoneIcon className={styles.icon} />
+       <span className={styles.phoneNumber}>055836127</span>
+      </a>
+        <a className={styles.linkItem} href="mailto:website-yvonneboateng88@yahoo.com">
+         <MailboxIcon className={styles.icon} />
+         <span className={styles.mailText}>Mail Us</span>
         </a>
         <Link className={styles.link} href="#OurServices">
           Our Services
         </Link>
-        <Link className={styles.link} href="#">
+        <Link className={styles.link} href="#WhyUs">
           Why Us
         </Link>
-        <Link className={styles.link} href="#">
+        <Link className={styles.link} href="#AboutUs">
           About Us
         </Link>
       </div>
     </header>
   );
 }
+
 
 function MailboxIcon(props) {
   return (
