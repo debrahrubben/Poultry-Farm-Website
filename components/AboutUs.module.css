@@ -44,12 +44,13 @@
   display: inline-block;
 }
 .theTypicalRuralContainer {
-  width: 100vw;
+  width: auto;
   position: absolute;
   margin: 0 !important;
-  top: 76px;
-  left: -69px;
+  top: 56px;
+  
   z-index: 1;
+  text-align: right;
 }
 .aboutUs {
   width: 268px;
@@ -153,7 +154,7 @@
     gap: var(--gap-92xl);
   }
   .frameWrapper {
-    min-width: 100%;
+    min-width: 70%;
   }
   
 }
@@ -176,7 +177,7 @@
     gap: var(--gap-36xl);
   }
   .details{
-    margin-top: 100px;
+    margin-top: 70px;
     font-size: small;
     
   }

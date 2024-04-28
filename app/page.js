@@ -5,7 +5,7 @@ import { Card } from "../components/component/card.jsx";
 import { Organic } from "../components/component/Organic.jsx";
 import { Gallery } from "../components/component/Gallery.jsx";
 import { AboutUs} from "../components/AboutUs.js";
-import { Footer} from "../components/component/footer.jsx";
+import { Footer} from "../components/component/Footer.jsx";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
   <Gallery />
   <AboutUs />
   <Footer />
+  <div style={{ width: 'auto', height: '10px', background: 'linear-gradient(to right,#8f2e37, #d48e52)' }}></div>
     </div>
   );
 }

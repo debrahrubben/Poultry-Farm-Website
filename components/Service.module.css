@@ -562,20 +562,20 @@
   box-sizing: border-box;
 }
 .whiteBlankBackgroundTextureParent {
-  width: 1467px;
+  width: 95vw;
   flex-direction: column;
   padding: var(--padding-25xl) var(--padding-18xl-2) var(--padding-46xl)
     var(--padding-90xl);
   position: relative;
   gap: var(--gap-lgi);
-  max-width: 102%;
+  max-width: 100vw;
   flex-shrink: 0;
 }
 .tableCell {
-  width: 1442px;
+  
   flex-direction: row;
   padding: 0 var(--padding-12xs);
-  max-width: 100%;
+  max-width: 100vw;
   text-align: left;
   font-size: var(--font-size-29xl);
   color: var(--color-brown);
