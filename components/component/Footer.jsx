@@ -21,7 +21,7 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    (<footer className="w-full bg-gray-950 text-gray-50 py-12 md:py-16 lg:py-20">
+    (<footer className="w-full bg-gray-950 text-gray-50 py-6 md:py-8 lg:py-10">
       <div
         className="container flex flex-col md:flex-row justify-between items-start gap-8 md:gap-12">
         <div className="flex flex-col items-start gap-4">

@@ -146,6 +146,7 @@
   flex-shrink: 0;
   max-width: 100%;
   z-index: 1;
+  text-decoration: underline;
 }
 .blurEffect {
   width: 1246.7px;

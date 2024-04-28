@@ -42,13 +42,14 @@
 .theTypicalRuralContainer {
   line-height: 20px;
   display: inline-block;
+  
 }
 .theTypicalRuralContainer {
   width: auto;
   position: absolute;
   margin: 0 !important;
   top: 56px;
-  
+  left: 250px;
   z-index: 1;
   text-align: right;
 }
@@ -144,6 +145,7 @@
   .theTypicalRuralContainer {
     font-size: var(--font-size-32xl);
     line-height: 16px;
+    left: 10px;
   }
   .aboutUs,
   .ourUrbanBredChickensContainer {

@@ -36,6 +36,7 @@ const Services = () => {
         <div className={styles.dropShadowEffect}>
           <div className={styles.blurEffect}>
             <div className={styles.servicesForTheBestContainer}>
+              <u></u>
               <p className={styles.servicesFor}>Services for</p>
               <p className={styles.theBestClients}>the best clients</p>
             </div>
