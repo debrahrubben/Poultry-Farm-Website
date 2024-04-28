@@ -2,14 +2,17 @@ import { Header } from './component/header.jsx';
 import styles from './HeroSection.module.css';
 import { Title } from './component/Title.jsx';
 
-const HeroSection = ({ children }) => {
-  return (
-    <section className={styles.hero}>
-      <Header />
-      <Title />
-      {children}
-    </section>
-  );
-};
+import React from 'react'
 
-export default HeroSection;
+export const HeroSection = () => {
+  return (
+    <div>
+   <section className={styles.hero}>
+    <Header />
+    <Title />
+  </section></div>
+  )
+}
+
+
+

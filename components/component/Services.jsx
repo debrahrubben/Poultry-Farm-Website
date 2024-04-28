@@ -1,11 +1,10 @@
 
-import styles from './Service.module.css';
+import styles from '../Service.module.css';
 
-const Services = () => {
+export const Services = () => {
   return (
-    <div className={styles.tableCell}>
+    <div  className={styles.tableCell}>
       <div className={styles.whiteBlankBackgroundTextureParent}>
-        
         <div className={styles.tablePropertiesWrapper}>
           <div className={styles.tableProperties}>
             <div className={styles.lineParent}>
@@ -22,7 +21,10 @@ const Services = () => {
               <div className={styles.layerOrder}>
                 <div className={styles.welcomeToOur}>
                   <p>
-                  Welcome to our world of livestock expertise!
+                  Welcome to our world of livestock <br />
+                  expertise!
+                  </p>
+                  <p>
                   Explore, learn,
                   grow, and buy with us.
                   </p>
@@ -50,7 +52,5 @@ const Services = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
-
-export default Services

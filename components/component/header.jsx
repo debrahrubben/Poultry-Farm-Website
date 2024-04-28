@@ -24,7 +24,7 @@ export function Header() {
           <MailboxIcon className={styles.icon} />
           <span className={styles.mailText}href="#">Mail Us</span>
         </a>
-        <Link className={styles.link} href="#">
+        <Link className={styles.link} href="#OurServices">
           Our Services
         </Link>
         <Link className={styles.link} href="#">

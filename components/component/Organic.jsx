@@ -7,7 +7,7 @@ export function Organic() {
         <div className={styles.mergeTree}>
         <b className={styles.whyChooseUs}>WHY CHOOSE US</b>
       </div>
-        <h1 className={`${styles.title}`}>GET THE DIFFERENT TASTE HERE</h1>
+      <h1 className={styles.title}>GET THE DIFFERENT TASTE HERE</h1>
         <div className="grid gap-4">
           <div className={`${styles.item}`}>
             <BeefIcon className="w-8 h-8 text-white" />
