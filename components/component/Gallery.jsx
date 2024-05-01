@@ -56,7 +56,7 @@ export function Gallery() {
           alt="Image 4"
           className="aspect-square rounded-lg overflow-hidden shadow-md"
           height={300}
-          src="https://res.cloudinary.com/dgpxvazru/image/upload/v1713902307/Poultry/5f75304844c7d342a0a09264da4a638c_srfmoc.jpg"
+          src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714571365/Poultry/rectangle-8_2x343_qwc2kd.webp"
           width={350}
           style={{ border: '3px solid gray ', transition: 'border-color 0.3s ease' }}
         />
