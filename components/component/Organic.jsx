@@ -2,7 +2,8 @@ import styles from './Organic.module.css';
 
 export function Organic() {
   return (
-    <div id='WhyUs' className={`${styles.backgroundImage} w-full `}>
+    <div>
+      <div id='WhyUs' className={`${styles.backgroundImage} w-full `}>
       <div className={`${styles.container} relative flex flex-col justify-center z-10 gap-6`}>
         <div className={styles.mergeTree}>
         <b className={styles.whyChooseUs}>WHY CHOOSE US</b>
@@ -23,6 +24,8 @@ export function Organic() {
           </div>
         </div>
       </div>
+    </div>
+    <div style={{ width: 'auto', height: '50px', background: 'linear-gradient(to right,#8f2e37, #d48e52)' }}></div>
     </div>
   );
 }
