@@ -10,7 +10,7 @@ export function Header() {
         <img
           alt="Cartus Logo"
           className={styles.logo}
-          src="https://res.cloudinary.com/dgpxvazru/image/upload/v1713805297/Poultry/photo-20240419-172616-1_2x_jwgqxw.png"
+          src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714570605/Poultry/photo-20240419-172616-1_2x_jwgqxw_xhivsg.webp"
         />
         <div className={styles.text}>
           <div className={styles.boldText}>CARTUS</div>
