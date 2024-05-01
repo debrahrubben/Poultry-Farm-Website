@@ -21,8 +21,7 @@ export const Services = () => {
               <div className={styles.layerOrder}>
                 <div className={styles.welcomeToOur}>
                   <p>
-                  Welcome to our world of livestock <br />
-                  expertise!
+                  Welcome to our world of <br />livestock expertise!
                   </p>
                   <p>
                   Explore, learn,
