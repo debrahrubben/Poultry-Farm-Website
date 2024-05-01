@@ -26,7 +26,7 @@ export const Services = () => {
                   </p>
                   <p>
                   Explore, learn,
-                  grow, and buy with us.
+                  grow, and buy with <br /> us.
                   </p>
                 </div>
                 <div className={styles.opacity}>

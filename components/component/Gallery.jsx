@@ -1,3 +1,5 @@
+
+
 export function Gallery() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-1 p-4 md:p-4">
@@ -48,7 +50,7 @@ export function Gallery() {
           alt="Image 3"
           className="aspect-square rounded-lg overflow-hidden shadow-md"
           height={300}
-          src="https://res.cloudinary.com/dgpxvazru/image/upload/v1713902297/Poultry/1bfe8c0be0617580f46012613528de72_hdh3u8.jpg"
+          src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714571878/Poultry/property-1variant2_gxij4a.webp"
           width={350}
           style={{ border: '3px solid gray', transition: 'border-color 0.3s ease' }}
         />
