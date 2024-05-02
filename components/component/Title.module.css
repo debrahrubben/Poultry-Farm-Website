@@ -7,16 +7,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #8f2e37;
-    -webkit-text-fill-color: #d48e52;
-    font-family: "Rammetto One", sans-serif;
+    
+    font-family: "Garamond", sans-serif;
   }
   
   .title h1 {
     font-size: 230%;
     font-weight: bold;
-    color: #8f2e37;
+    color: white;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   }
   
