@@ -20,7 +20,7 @@ export default function Home() {
    <Gallery />
    <AboutUs />
    <Footer />
-   <div style={{ background: 'linear-gradient(to right, #8f2e37, #d48e52)', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)' }}></div>
+   <div style={{ width: 'auto', height: '10px', background: 'linear-gradient(to right,#8f2e37, #d48e52)' }}></div>
    </div>
     </ThemeProvider>
   

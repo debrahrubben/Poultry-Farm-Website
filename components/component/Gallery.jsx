@@ -1,8 +1,8 @@
 
-
 export function Gallery() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-1 p-4 md:p-4">
+    <div >
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-1 p-4 md:p-4">
       <div className="grid gap-2">
         <video
           muted
@@ -64,5 +64,6 @@ export function Gallery() {
         />
       </div>
     </section>
+    </div>
   );
 }
