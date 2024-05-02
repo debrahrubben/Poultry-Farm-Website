@@ -61,7 +61,7 @@
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .backgroundImage {
-    background-size: contain;
+    
     background: 'linear-gradient(to right,#8f2e37, #d48e52)'
   }
 
