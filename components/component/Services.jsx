@@ -24,8 +24,7 @@ export const Services = () => {
                   Welcome to our world of <br />livestock expertise!
                   </p>
                   <p>
-                  Explore, learn,
-                  grow, and buy with <br /> us.
+                  Explore, learn, grow, and<br /> buy with us.
                   </p>
                 </div>
                 <div className={styles.opacity}>

@@ -25,7 +25,7 @@ export function Organic() {
         </div>
       </div>
     </div>
-    <div style={{ width: 'auto', height: '50px', background: 'linear-gradient(to right,#8f2e37, #d48e52)' }}></div>
+    
     </div>
   );
 }
