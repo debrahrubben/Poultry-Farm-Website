@@ -10,7 +10,7 @@ export function Card() {
               alt="Card Image"
               className="w-full h-full object-cover"
               height="300"
-              src="https://res.cloudinary.com/dgpxvazru/image/upload/v1713882370/Poultry/rectangle-2_2x_oavpjg.webp"
+              src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714839316/Poultry/photo_2024-05-04_16-08-15_dzi8s1.webp"
               style={{
                 aspectRatio: "500/300",
                 objectFit: "cover",
@@ -34,7 +34,7 @@ export function Card() {
               alt="Card Image"
               className="w-full h-full object-cover"
               height="300"
-              src="https://res.cloudinary.com/dgpxvazru/image/upload/v1713882370/Poultry/rectangle-2-1_2x_iuq40f.webp"
+              src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714839315/Poultry/photo_2024-05-04_16-08-19_fraeqi.webp"
               style={{
                 aspectRatio: "500/300",
                 objectFit: "cover",
@@ -60,7 +60,7 @@ export function Card() {
               alt="Card Image"
               className="w-full h-full object-cover"
               height="300"
-              src="https://res.cloudinary.com/dgpxvazru/image/upload/v1713882370/Poultry/rectangle-2-2_2x_exe5xg.webp"
+              src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714839317/Poultry/6667_nfn0e7.webp"
               style={{
                 aspectRatio: "500/300",
                 objectFit: "cover",
