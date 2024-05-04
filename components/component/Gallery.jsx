@@ -37,7 +37,7 @@ export function Gallery() {
           height={760}
           width={400}
           controls
-          preload="yes"
+          preload="auto"
           
         >
           <source src="https://res.cloudinary.com/dgpxvazru/video/upload/v1713901283/Poultry/video_2024-04-19_21-39-48_q3rp64.mp4" />
