@@ -11,7 +11,7 @@ import { Services } from "../components/component/Services.jsx";
 export default function Home() {
   return (
     <ThemeProvider enableSystem={false} attribute="class">
-      <div style={{backgroundColor:'#DDDDDD'}}>
+      <div style={{backgroundColor:'#E5E1DA'}}>
    <HeroSection />
    <Services />
    <Card />
