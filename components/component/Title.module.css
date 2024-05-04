@@ -1,5 +1,6 @@
 /* Title styles */
 .title {
+    padding-top: 50px;
     position: relative;
     height: 500px;
     display: flex;
