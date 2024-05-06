@@ -38,7 +38,7 @@ export function Gallery() {
           width={400}
           controls
           preload="auto"
-          
+          autoPlay
         >
           <source src="https://res.cloudinary.com/dgpxvazru/video/upload/v1713901283/Poultry/video_2024-04-19_21-39-48_q3rp64.mp4" />
         </video>

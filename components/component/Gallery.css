@@ -5,7 +5,7 @@
   }
   
   .main {
-    height: 50vh;
+    height: 70vh;
     display: grid;
     place-items: center;
   }
@@ -45,11 +45,11 @@
   
   @media (width < 800px) {
     .gallery {
-      width: 390px;
+      width: 100vw;
       height: 660px;
   
       & .item {
-        width: 185px;
+        width: 43vw;
         height: 150px;
       }
   
