@@ -31,17 +31,19 @@ export function Gallery() {
         </div>
         <div className="item" data-pos="2">
         <video
-          muted
-          alt="Video 2"
-          className=" rounded-lg overflow-hidden"
-          height={760}
-          width={400}
-          controls
-          preload="auto"
-          autoPlay
-        >
-          <source src="https://res.cloudinary.com/dgpxvazru/video/upload/v1713901283/Poultry/video_2024-04-19_21-39-48_q3rp64.mp4" />
-        </video>
+  muted
+  alt="Video 2"
+  className="rounded-lg overflow-hidden"
+  height={760}
+  width={400}
+  controls
+  preload="auto"
+  autoPlay
+  loading="lazy"
+>
+  <source src="https://res.cloudinary.com/dgpxvazru/video/upload/v1713901283/Poultry/video_2024-04-19_21-39-48_q3rp64.mp4" />
+</video>
+
         </div>
         <div className="item" data-pos="3">
           <img src="https://res.cloudinary.com/dgpxvazru/image/upload/v1714839482/Poultry/5f75304844c7d342a0a09264da4a638c_kd9gzu.webp" />
